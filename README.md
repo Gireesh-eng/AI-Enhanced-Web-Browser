@@ -58,5 +58,5 @@ A modern web browser built with PyQt5, featuring AI assistance, video site handl
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/Gireesh-eng/AI-Enhanced-Web-Browser.git
 ```
