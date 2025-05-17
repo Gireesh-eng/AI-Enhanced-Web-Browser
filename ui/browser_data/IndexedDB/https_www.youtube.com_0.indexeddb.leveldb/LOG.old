@@ -1,8 +1,0 @@
-2025/03/20-20:38:44.050 1074 Reusing MANIFEST C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/20-20:38:44.051 1074 Recovering log #61
-2025/03/20-20:38:44.051 1074 Reusing old log C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000061.log 
-2025/03/20-20:38:46.101 4eb4 Level-0 table #66: started
-2025/03/20-20:38:46.101 4eb4 Level-0 table #66: 0 bytes OK
-2025/03/20-20:38:46.104 4eb4 Delete type=0 #61
-2025/03/20-20:38:46.105 4eb4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2025/03/20-20:38:46.105 4eb4 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

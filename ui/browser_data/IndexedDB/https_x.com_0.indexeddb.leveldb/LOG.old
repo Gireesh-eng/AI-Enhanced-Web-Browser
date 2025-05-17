@@ -1,5 +1,0 @@
-2025/03/16-13:43:40.318 3038 Reusing MANIFEST C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\IndexedDB\https_x.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/16-13:43:54.673 5380 Level-0 table #5: started
-2025/03/16-13:43:54.682 5380 Level-0 table #5: 1771 bytes OK
-2025/03/16-13:43:54.684 5380 Delete type=0 #3
-2025/03/16-13:43:54.684 5380 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

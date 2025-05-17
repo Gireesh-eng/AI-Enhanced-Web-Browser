@@ -1,15 +1,5 @@
-2025/03/20-20:39:03.157 1d74 Reusing MANIFEST C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/20-20:39:03.158 1d74 Recovering log #65
-2025/03/20-20:39:03.158 1d74 Reusing old log C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000065.log 
-2025/03/20-20:39:42.166 4eb4 Level-0 table #69: started
-2025/03/20-20:39:42.170 4eb4 Level-0 table #69: 15119 bytes OK
-2025/03/20-20:39:42.172 4eb4 Delete type=0 #65
-2025/03/20-20:39:42.172 4eb4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2025/03/20-20:39:42.172 4eb4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xe0\xe0\xc0?[yB\x00\x03\x00\x00\x00\x00\x00\x80D@' @ 3649 : 1
-2025/03/20-20:39:42.172 4eb4 Compacting 1@1 + 1@2 files
-2025/03/20-20:39:42.178 4eb4 Generated table #70@1: 313 keys, 45843 bytes
-2025/03/20-20:39:42.178 4eb4 Compacted 1@1 + 1@2 files => 45843 bytes
-2025/03/20-20:39:42.179 4eb4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/20-20:39:42.179 4eb4 Delete type=2 #63
-2025/03/20-20:39:42.179 4eb4 Delete type=2 #69
-2025/03/20-20:39:42.179 4eb4 Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xe0\xe0\xc0?[yB\x00\x03\x00\x00\x00\x00\x00\x80D@' @ 3649 : 1 .. (end); will stop at (end)
+2025/04/01-21:02:04.676 49e4 Reusing MANIFEST C:\Users\MohanGowda KV\Desktop\AI-Enhanced-Web-Browser\ui\browser_data\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/01-21:02:13.562 5ce0 Level-0 table #5: started
+2025/04/01-21:02:13.565 5ce0 Level-0 table #5: 11303 bytes OK
+2025/04/01-21:02:13.567 5ce0 Delete type=0 #3
+2025/04/01-21:02:13.568 5ce0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

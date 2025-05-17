@@ -1,3 +1,8 @@
-2025/03/20-21:26:27.651 3f80 Reusing MANIFEST C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\Local Storage\leveldb/MANIFEST-000001
-2025/03/20-21:26:27.651 3f80 Recovering log #36
-2025/03/20-21:26:27.651 3f80 Reusing old log C:\Users\MohanGowda KV\Desktop\web\ui\browser_data\Local Storage\leveldb/000036.log 
+2025/04/01-21:01:41.535 57e8 Reusing MANIFEST C:\Users\MohanGowda KV\Desktop\AI-Enhanced-Web-Browser\ui\browser_data\Local Storage\leveldb/MANIFEST-000001
+2025/04/01-21:01:41.557 57e8 Recovering log #4
+2025/04/01-21:01:41.558 57e8 Reusing old log C:\Users\MohanGowda KV\Desktop\AI-Enhanced-Web-Browser\ui\browser_data\Local Storage\leveldb/000004.log 
+2025/04/01-21:01:50.381 4714 Level-0 table #8: started
+2025/04/01-21:01:50.385 4714 Level-0 table #8: 85665 bytes OK
+2025/04/01-21:01:50.387 4714 Delete type=0 #4
+2025/04/01-21:02:17.857 4714 Level-0 table #10: started
+2025/04/01-21:02:17.867 4714 Level-0 table #10: 94147 bytes OK

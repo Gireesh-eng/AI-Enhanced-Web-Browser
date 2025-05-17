@@ -342,7 +342,7 @@ Provide a clear explanation that would help someone understand this content, inc
             genai.configure(api_key=self.api_key)
             
             # Create a Gemini model instance
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.0-flash')
             
             # Generate content with timeout handling
             try:
