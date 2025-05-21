@@ -25,7 +25,6 @@ class GeminiHelper(QObject):
             print("API key loaded successfully from .env file")
             
         self.content_script = self._create_content_script()
-        self.processing_timer = None
         self.current_action = None
         
         # Configure Gemini API if key is available
@@ -156,15 +155,6 @@ class GeminiHelper(QObject):
             
         # Store the current action
         self.current_action = action
-        
-        # Set up a timeout timer
-        if self.processing_timer is not None:
-            self.processing_timer.stop()
-        
-        self.processing_timer = QTimer()
-        self.processing_timer.setSingleShot(True)
-        self.processing_timer.timeout.connect(self._handle_timeout)
-        self.processing_timer.start(30000)  # 30 second timeout
         
         # JavaScript to call our injected function
         js_code = """
@@ -367,22 +357,6 @@ Provide a clear explanation that would help someone understand this content, inc
             print(f"Error calling Gemini API: {str(e)}\nDetails: {error_details}")
             return f"Error: {str(e)}. Please check your API key in the .env file and try again."
     
-    def _handle_timeout(self):
-        """Handle timeout when processing takes too long."""
-        if self.current_action:
-            # Create a message for the timeout
-            result = f"The {self.current_action} operation timed out after 30 seconds. This could be due to:\n\n"
-            result += "- Network connectivity issues\n"
-            result += "- Gemini API being temporarily unavailable\n"
-            result += "- The content being too large to process quickly\n\n"
-            result += "Please try again with a smaller selection of text or check your internet connection."
-            
-            # Emit the result
-            self.result_ready.emit(self.current_action, result)
-            
-            # Reset the current action
-            self.current_action = None 
-    
     def process_question(self, web_page, question, callback):
         """Process a user question by reading the current page or searching the web.
         
@@ -401,15 +375,6 @@ Provide a clear explanation that would help someone understand this content, inc
             callback("Error: API key appears to be invalid. Please set a valid API key in your .env file.")
             return
             
-        # Set up a timeout timer
-        if self.processing_timer is not None:
-            self.processing_timer.stop()
-        
-        self.processing_timer = QTimer()
-        self.processing_timer.setSingleShot(True)
-        self.processing_timer.timeout.connect(lambda: callback("Error: Processing timed out. Please check your API key in the .env file and try again."))
-        self.processing_timer.start(30000)  # 30 second timeout
-        
         # JavaScript to call our injected function to get page content
         js_code = """
         (function() {
